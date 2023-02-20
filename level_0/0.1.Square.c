@@ -1,3 +1,5 @@
+// get user input and print a sqaure of stars
+
 #include <stdio.h>
 
 int main(void)
