@@ -9,7 +9,7 @@ int main(void) {
     printf("Please enter sides (a b c): \n");
     flag_1 = scanf("%f %f %f", &a, &b, &c);
 
-    if (flag_1 != 3) {
+    if (flag_1 != 3 || (a < 0 || b < 0 || c < 0)) {
         printf("Invalid input. Please enter valid numbers.\n");
         return 1;
     } else if (a + b < c || a + c < b || b + c < a) {
