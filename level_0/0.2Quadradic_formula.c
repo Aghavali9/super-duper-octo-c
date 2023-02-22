@@ -33,7 +33,7 @@ int main(void)
         {
             x1 = (-b)/(2*a);
             printf("2 real coincident solutions: ");
-            printf("%f\n",x1);
+            printf("%.2f\n",x1);
         }
         else
         {
@@ -41,7 +41,7 @@ int main(void)
             {
                 x1 = (-b + sqrt(delta))/(2*a);
                 x2 = (-b - sqrt(delta))/(2*a);
-                printf("2 real distinct solutions: %.2f %.2f", x1, x2);
+                printf("2 real distinct solutions: \nx1= %.2f\nx2= %.2f", x1, x2);
             }
             else
             {
