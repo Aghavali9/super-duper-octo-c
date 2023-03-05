@@ -30,7 +30,12 @@ void quicksort(int arr[], int low, int high) {
 int main() {
     int arr[] = {10, 7, 8, 9, 1, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
+    printf("Original Order:\n");
+    for (size_t i = 0; i < 6 ; ++i){
+        printf("%-4d", arr[i]);
+    }
     quicksort(arr, 0, n-1);
+    printf("\nAscending Order:\n");
     for (int i = 0; i < n; i++) {
         printf("%-4d ", arr[i]);
     }
