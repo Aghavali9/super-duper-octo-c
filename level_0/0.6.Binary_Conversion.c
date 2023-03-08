@@ -3,9 +3,9 @@ int user_input();
 
 
 int main() {
-    int p, num = user_input();
+    int num = user_input();
 
-    for (p = 1; p < num; p = 2*p);
+    for (int p = 1; p < num; p = 2*p);
     printf("%d in pure binary is:\t", num);
     while (p>0) {
         if (p <= num) {
