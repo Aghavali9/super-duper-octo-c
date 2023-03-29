@@ -1,3 +1,9 @@
+/* The time complexity of this algorithm would be Θ(n log n), because this is the tightest
+ * bound that can be found for the time required to execute the algorithm. In the best case
+ * scenario, the input array is already sorted, and the algorithm takes linear time, while in
+ * the worst-case scenario, the input array is completely reversed, and the algorithm takes
+ * quadratic time. But on average, the algorithm takes n log n time to execute. */
+
 #include <stdio.h>
 
 void swap(int *a, int *b) {
